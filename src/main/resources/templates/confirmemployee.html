@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p th:inline="text">The First name is [[${employee.firstname}]].<br/>
+    The Last name is [[${employee.lastname}]].<br/>
+    The SSN is[[${employee.SSN}]] and the DOB is [[${employee.DOB}]].<br/>
+</p>
+</body>
+</html>
